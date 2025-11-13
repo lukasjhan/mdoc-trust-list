@@ -19,6 +19,7 @@ export class AppService {
     ];
     return {
       certs,
+      lastUpdated: new Date('2025-11-13T14:14:00').toISOString(),
     };
   }
 }
